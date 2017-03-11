@@ -1,0 +1,18 @@
+.to-banner {
+}
+
+.to-content {
+    background-color: #fff;
+}
+
+.to-left {
+}
+
+.to-right {    
+    background-color: #fff;
+}
+
+.to-right > form:first-child  {
+    border: 2px solid #0095DA;
+    border-radius: 5px;
+}

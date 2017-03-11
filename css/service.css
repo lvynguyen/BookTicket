@@ -1,0 +1,37 @@
+ul.cabin{
+    list-style-type: none;
+}
+ul.seat{
+    list-style-type: none;
+}
+ul.seat > li {
+    display: inline-block;
+}
+.to-seat-map table th,
+.to-seat-map table td{
+    padding: 0;
+    border-color: #5BC0DE !important;
+}
+.to-seat-head{
+    display: block;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+.to-seat-input{
+    display: none;
+}
+.to-seat-label{
+    display: block;
+    width: 50px;
+    height: 30px;
+    background: #fff url("../images/seat.png") center no-repeat;
+    background-size: contain;
+    margin: 0;
+    padding: 0;
+}
+input[type=checkbox].to-seat-input:checked + label.to-seat-label {
+    background-color: #5bc0de;
+}
