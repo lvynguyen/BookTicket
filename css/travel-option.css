@@ -1,5 +1,6 @@
 ﻿.pp-tab{
     padding: 0;
+    padding-top: 15px;
 }
 .pp-tab .tab-item{
     list-style: none;

@@ -14,6 +14,8 @@
     <link href="css/travel-option.css" rel="stylesheet" />
     <link href="css/login.css" rel="stylesheet" />
     <link href="css/register.css" rel="stylesheet" />
+    <link href="css/flight.css" rel="stylesheet" />
+    <link href="css/passenger.css" rel="stylesheet" />
     <link href="css/service.css" rel="stylesheet" />
 
 </head>

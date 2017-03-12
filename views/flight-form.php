@@ -2,13 +2,13 @@
     <div class="row">
         <ul class="row pp-tab">
             <li class="tab-item active">
-                <a href="">Ngày</a>
+                <a href="#">Ngày</a>
             </li>
             <li class="tab-item active">
-                <a href="?page=flight">Chuyến bay</a>
+                <a href="#">Chuyến bay</a>
             </li>
             <li class="tab-item">
-                <a href="?page=passenger">Hành khách</a>
+                <a href="#">Hành khách</a>
             </li>
             <li class="tab-item">
                 <a href="#">Dịch vụ</a>
@@ -100,11 +100,11 @@
             </tbody>
         </table>
 
-        <div class="row form-group">
+        <div class="col-xs-12 form-group">
             <a class="to-form-back" href="javascript:history.back()">
                 <i class="fa fa-arrow-circle-left"></i>
             </a>
-            <a class="to-form-back pull-right" href="?page=passenger">
+            <a class="to-form-next pull-right" href="?page=passenger">
                 <i class="fa fa-arrow-circle-right"></i>
             </a>
         </div>

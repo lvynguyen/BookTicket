@@ -1,4 +1,4 @@
-﻿<div class="row to-login">
+﻿<div class="to-login">
     <form class="col-md-6 col-md-offset-3 form-horizontal">
             <div class="form-group">
                 <label class="control-label col-xs-3" for="name">Tên:</label>

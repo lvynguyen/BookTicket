@@ -1,0 +1,8 @@
+.to-flight > form > h2 {
+    margin-left: 20px;
+}
+
+.to-flight > form .to-form-back,
+.to-flight > form .to-form-next {
+    font-size: 2em;
+}

@@ -1,0 +1,8 @@
+.to-passenger > form {
+    padding: 20px;
+}
+
+.to-passenger  .to-form-back,
+.to-passenger  .to-form-next {
+    font-size: 2em;
+}
