@@ -1,16 +1,10 @@
-ul.cabin{
-    list-style-type: none;
+.to-seat-map {
+    padding: 25px;
 }
-ul.seat{
-    list-style-type: none;
-}
-ul.seat > li {
-    display: inline-block;
-}
+
 .to-seat-map table th,
 .to-seat-map table td{
     padding: 0;
-    border-color: #5BC0DE !important;
 }
 .to-seat-head{
     display: block;
@@ -34,4 +28,25 @@ ul.seat > li {
 }
 input[type=checkbox].to-seat-input:checked + label.to-seat-label {
     background-color: #5bc0de;
+}
+
+.to-seat-note > p:nth-child(2) > i{
+    color: #7CEF87;
+}
+.to-seat-note > p:nth-child(3) > i {
+    color: #EEE24D;
+}
+.to-seat-note > p:nth-child(4) > i {
+    color: #0E90D1;
+}
+.to-seat-note > p:nth-child(5) > i {
+    color: #D12336;
+}
+.to-seat-note > p:nth-child(6) > i {
+    color: #3F0306;
+}
+
+.to-seat > div > .to-form-back,
+.to-seat > div > .to-form-next {
+    font-size: 2em;
 }

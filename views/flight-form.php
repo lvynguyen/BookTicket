@@ -1,4 +1,4 @@
-<div class="to-flight">
+<div class="row to-flight">
     <div class="row">
         <ul class="row pp-tab">
             <li class="tab-item active">
@@ -9,6 +9,9 @@
             </li>
             <li class="tab-item">
                 <a href="#">Hành khách</a>
+            </li>
+            <li class="tab-item">
+                <a href="#">Chỗ ngồi</a>
             </li>
             <li class="tab-item">
                 <a href="#">Dịch vụ</a>

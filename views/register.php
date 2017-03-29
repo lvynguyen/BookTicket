@@ -1,4 +1,4 @@
-﻿<div class="to-register">
+﻿<div class="row to-register">
     <form class="col-md-8 col-md-offset-2 form-horizontal" method="post" action="">
             <div class="row form-group">
                 <label class="control-label col-xs-3">Quý danh:</label>

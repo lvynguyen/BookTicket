@@ -1,0 +1,12 @@
+#payment-content{
+    min-height: 100px;
+    position: relative;
+    padding: 20px 10px;
+}
+#payment-content .fa{
+    position: absolute;
+    top: 45%;
+    left: 48%;
+    font-size: 1.5em;
+}
+

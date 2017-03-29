@@ -86,7 +86,7 @@
     </div>
 </div>
 <div class="col-xs-5 to-right">
-    <form class="row" method="post" action="http://localhost:60704/TravelOption.html">
+    <form class="row" method="post" action="http://localhost:8888/BookTicket/Index.php?page=flight">
         <div class="row form-group">
             <div class="col-xs-12">
                 <h3>Đặt vé </h3>

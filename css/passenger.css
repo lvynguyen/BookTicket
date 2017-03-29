@@ -1,5 +1,5 @@
-.to-passenger > form {
-    padding: 20px;
+.to-passenger > div > form {
+    padding-top: 20px;
 }
 
 .to-passenger  .to-form-back,
