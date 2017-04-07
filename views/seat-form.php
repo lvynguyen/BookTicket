@@ -22,9 +22,6 @@
             <li class="tab-item">
                 <a href="#">Xác nhận</a>
             </li>
-            <li class="tab-item">
-                <a href="#">Hoàn thành</a>
-            </li>
         </ul>
     </div>
 
@@ -40,7 +37,7 @@
                     <thead>
                     <tr>
                         <th></th>
-                        <?
+                        <?php
                         for ($i = 'A'; $i < 'G'; $i++) {
                             echo "<th><label class='to-seat-head'>$i</label></th>";
                             if ($i == 'C') {
@@ -51,7 +48,7 @@
                     </tr>
                     </thead>
                     <tbody>
-                    <?
+                    <?php
                     for ($i = 1; $i < 20; $i++) {
                         echo "<tr><th><label class='to-seat-head'>$i</label></th>";
                         for ($j = 'A'; $j < 'G'; $j++) {
@@ -122,7 +119,7 @@
                     <thead>
                     <tr>
                         <th></th>
-                        <?
+                        <?php
                         for ($i = 'A'; $i < 'G'; $i++) {
                             echo "<th><label class='to-seat-head'>$i</label></th>";
                             if ($i == 'C') {
@@ -133,7 +130,7 @@
                     </tr>
                     </thead>
                     <tbody>
-                    <?
+                    <?php
                     for ($i = 1; $i < 20; $i++) {
                         echo "<tr><th><label class='to-seat-head'>$i</label></th>";
                         for ($j = 'A'; $j < 'G'; $j++) {

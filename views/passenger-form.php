@@ -22,14 +22,10 @@
             <li class="tab-item">
                 <a href="">Xác nhận</a>
             </li>
-            <li class="tab-item">
-                <a href="">Hoàn thành</a>
-            </li>
         </ul>
     </div>
 
-    <div class="row">
-        <form class="col-xs-7 col-md-offset-2 form-horizontal">
+    <form class="row form-horizontal">
             <div class="form-group">
                 <label class="control-label col-xs-3">Quý danh</label>
 
@@ -130,7 +126,6 @@
                 </div>
             </div>
         </form>
-    </div>
 
     <div class="row">
         <div class="col-xs-12">

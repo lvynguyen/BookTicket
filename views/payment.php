@@ -22,9 +22,6 @@
             <li class="tab-item">
                 <a href="">Xác nhận</a>
             </li>
-            <li class="tab-item">
-                <a href="">Hoàn thành</a>
-            </li>
         </ul>
     </div>
     <div class="row">
@@ -75,6 +72,13 @@
 
         <div class="form-group" id="payment-content">
             <i class="fa fa-spinner fa-spin"></i>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <a class="to-form-back" href="javascript:history.back()"><i class="fa fa-arrow-circle-left"></i></a>
+            <a class="to-form-next pull-right" href="?page=end"><i class="fa fa-arrow-circle-right"></i></a>
         </div>
     </div>
 </div>

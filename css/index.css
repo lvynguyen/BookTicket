@@ -1,6 +1,23 @@
 .to-banner {
+    position: relative;
+    height:300px;
 }
-
+.to-banner > img {
+    position: absolute;
+}
+.to-banner > div:last-child {
+    position: absolute;
+    bottom: 0;
+    right: 14px;
+    color: #fff;
+}
+.to-username > p{
+    display: inline-block;
+}
+.to-username > a {
+    color: #fff;
+    display: inline-block;
+}
 .to-content {
     background-color: #fff;
 }

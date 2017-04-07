@@ -1,0 +1,12 @@
+.to-service > form {
+    padding-left: 30px;
+}
+.to-service > form > div > div {
+    border: 1px solid #ccc;
+    padding: 30px 20px;
+}
+
+.to-form-back,
+.to-form-next {
+    font-size: 2em;
+}

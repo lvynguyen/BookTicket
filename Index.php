@@ -17,13 +17,20 @@
     <link href="css/flight.css" rel="stylesheet"/>
     <link href="css/passenger.css" rel="stylesheet"/>
     <link href="css/seat.css" rel="stylesheet"/>
+    <link href="css/service.css" rel="stylesheet"/>
     <link href="css/payment.css" rel="stylesheet"/>
-
+    <link href="css/submit.css" rel="stylesheet"/>
 </head>
 
 <body>
 <div class="to-cover">
-    <div class="row to-banner"><img src="images/banner.jpg" width="100%"/></div>
+    <div class="row to-banner">
+        <img src="images/banner.jpg" width="100%"/>
+        <div class="to-username">
+            <p>Tên đăng nhập: Lvy Nguyễn! /</p>
+            <a href="#">Thoát</a>
+        </div>
+    </div>
     <div class="row to-menu">
         <ul class="col-xs-9">
             <li>
@@ -108,7 +115,7 @@
         </div>
     </div>
     <div class="row to-content">
-        <?
+        <?php
         if (!isset($_GET['page'])) {
             include("views/home.php");
         } else {
@@ -132,8 +139,11 @@
                 case "service" :
                     include("views/service-form.php");
                     break;
-                case "pay" :
+                case "payment" :
                     include("views/payment.php");
+                    break;
+                case "end":
+                    include("views/submit-form.php");
                     break;
             }
         }

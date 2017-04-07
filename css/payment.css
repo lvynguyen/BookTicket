@@ -1,3 +1,7 @@
+.to-payment > div:nth-child(2),
+.to-payment > div:nth-child(3){
+    padding: 0 20px;
+}
 #payment-content{
     min-height: 100px;
     position: relative;
@@ -8,5 +12,10 @@
     top: 45%;
     left: 48%;
     font-size: 1.5em;
+}
+
+.to-flight > form .to-form-back,
+.to-flight > form .to-form-next {
+    font-size: 2em;
 }
 

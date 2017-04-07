@@ -22,9 +22,6 @@
             <li class="tab-item">
                 <a href="#">Xác nhận</a>
             </li>
-            <li class="tab-item">
-                <a href="#">Hoàn thành</a>
-            </li>
         </ul>
     </div>
 
