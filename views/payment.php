@@ -62,8 +62,7 @@
         <h3>Hình thức thanh toán</h3>
         <div class="form-group">
             <select id="payment-select" class="form-control">
-                <option value="-1" selected>Chọn hình thức thanh toán</option>
-                <option value="1">Visa</option>
+                <option value="1" selected>Visa</option>
                 <option value="2">Master Card</option>
                 <option value="3">Agency Card</option>
                 <option value="4">Thanh toán sau</option>

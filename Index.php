@@ -20,6 +20,7 @@
     <link href="css/service.css" rel="stylesheet"/>
     <link href="css/payment.css" rel="stylesheet"/>
     <link href="css/submit.css" rel="stylesheet"/>
+    <link href="css/news.css" rel="stylesheet"/>
 </head>
 
 <body>
@@ -34,7 +35,7 @@
     <div class="row to-menu">
         <ul class="col-xs-9">
             <li>
-                <a>Tin tức</a>
+                <a href="?page=news">Tin tức</a>
             </li>
             <li>
                 <a>
@@ -54,26 +55,24 @@
                 <a>Dịch vụ</a>
                 <ul>
                     <li><a>Dịch vụ trên chuyến bay</a></li>
-                    <li><a>Hành lý</a></li>
-                    <li><a>Dịch vụ hàng hóa</a></li>
-                    <li><a>Link</a></li>
-                    <li><a>Link</a></li>
-                    <li><a>Link</a></li>
-                    <li><a>Link</a></li>
-                    <li><a>Link</a></li>
+                    <li><a>Hàng hóa</a></li>
+                    <li><a>Dịch vụ hành lý</a></li>
+                    <li><a>Dịch vụ đặc biệt</a></li>
+                    <li><a>Skyboss</a></li>
+                    <li><a>VietJet TravelCare</a></li>
+                    <li><a>Hàng miễn thuế</a></li>
+                    <li><a>Dịch vụ chọn chỗ ngồi</a></li>
                 </ul>
             </li>
             <li>
                 <a>Thông tin đặt chỗ</a>
                 <ul>
-                    <li><a>Link</a></li>
-                    <li><a>Link</a></li>
-                    <li><a>Link</a></li>
-                    <li><a>Link</a></li>
-                    <li><a>Link</a></li>
-                    <li><a>Link</a></li>
-                    <li><a>Link</a></li>
-                    <li><a>Link</a></li>
+                    <li><a>Hướng dẫn đặt chỗ</a></li>
+                    <li><a>Quản lý đặt chỗ</a></li>
+                    <li><a>Đặt chỗ cho đoàn</a></li>
+                    <li><a>Kênh thanh toán</a></li>
+                    <li><a>Hóa đơn VAT</a></li>
+                    <li><a>Vé điện tử</a></li>
                 </ul>
             </li>
             <li>
@@ -82,27 +81,25 @@
             <li>
                 <a>Chúng tôi</a>
                 <ul>
-                    <li><a>Link</a></li>
-                    <li><a>Link</a></li>
-                    <li><a>Link</a></li>
-                    <li><a>Link</a></li>
-                    <li><a>Link</a></li>
-                    <li><a>Link</a></li>
-                    <li><a>Link</a></li>
-                    <li><a>Link</a></li>
+                    <li><a>Quan hệ nhà đầu tư</a></li>
+                    <li><a>Công ty</a></li>
+                    <li><a>Đội bay</a></li>
+                    <li><a>Chương trình khuyến mãi</a></li>
+                    <li><a>Cơ hội nghề nghiệp</a></li>
+                    <li><a>Chính sách bảo mật</a></li>
                 </ul>
             </li>
             <li>
                 <a>Mua vé ở đâu</a>
                 <ul>
-                    <li><a>Link</a></li>
-                    <li><a>Link</a></li>
-                    <li><a>Link</a></li>
-                    <li><a>Link</a></li>
-                    <li><a>Link</a></li>
-                    <li><a>Link</a></li>
-                    <li><a>Link</a></li>
-                    <li><a>Link</a></li>
+                    <li><a>Mua trực tuyến</a></li>
+                    <li><a>Phòng vé</a></li>
+                    <li><a>Đại lý bán vé</a></li>
+                    <li><a>Tổng đài bán vé</a></li>
+                    <li><a>Đăng ký làm đại lý online</a></li>
+                    <li><a>Khách hàng doanh nghiệp</a></li>
+                    <li><a>Câu hỏi thường gặp</a></li>
+                    <li><a>FAQ TravelCare</a></li>
                 </ul>
             </li>
         </ul>
@@ -145,12 +142,27 @@
                 case "end":
                     include("views/submit-form.php");
                     break;
+                case "news":
+                    include("views/news.php");
+                    break;
             }
         }
         ?>
     </div>
+
     <div class="row to-footer">
-        <h2>Travel</h2>
+        <div class="to-footer-logo pull-left">
+            <i class="fa fa-plane"></i>
+            <a href="/BookTicket/Index.php">VietTravel</a>
+            <p>Trụ sở chính: 190 Pasteur, Phường 6, Quận 3, Tp. Hồ Chí Minh.<br>
+                Điện thoại: (84-8) 3822 8898. Fax: (84-8) 3829 9142.
+                Email : info@vietravel.com</p>
+        </div>
+        <div class="to-footer-social pull-right">
+            <a href=#><i class="fa fa-facebook-f"></i></a>
+            <a href=#><i class="fa fa-twitter"></i></a>
+            <a href=#><i class="fa fa-instagram"></i></a>
+        </div>
     </div>
 </div>
 

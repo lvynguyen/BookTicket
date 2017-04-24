@@ -24,18 +24,23 @@
             </li>
         </ul>
     </div>
+    <div>
+        <h3>Thông tin đặt vé:</h3>
+    </div>
     <div class="row submit-flight">
         <table class="table table-stripped">
             <thead>
             <tr>
                 <th>Hành khách</th>
+                <th>Chuyến bay</th>
                 <th>Tốn phí</th>
                 <th>Ghế ngồi</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-                <td>sss</td>
+                <td>ssss</td>
+                <td>ssss</td>
                 <td>ssss</td>
                 <td>dddd</td>
             </tr>

@@ -11,16 +11,16 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="Images/02.jpg" width="100%" />
+                <img src="Images/20170423234105vn.jpg" width="100%" />
             </div>
             <div class="item">
-                <img src="Images/04.jpg" width="100%" />
+                <img src="Images/201701251757443.jpg" width="100%" />
             </div>
             <div class="item">
-                <img src="Images/05.jpg" width="100%" />
+                <img src="Images/18033922_1072516352850246_4403702516920717198_n.png" width="100%" />
             </div>
             <div class="item">
-                <img src="Images/09.jpg" width="100%" />
+                <img src="Images/18011064_1067939223307959_4620034321788062124_n.png" width="100%" />
             </div>
         </div>
 
@@ -190,20 +190,20 @@
     </form>
 
     <div class="col-xs-12">
-        <h2>Gọi ngay: 1900 xxxx</h2>
+        <h2>Gọi ngay: 1900 8080</h2>
         <p>Để đặt chỗ và nhận các thông tin cần thiết</p>
     </div>
 
-    <form class="row" method="post" action="">
+    <form class="row" method="post" action="?page=register">
         <div class="row form-group">
             <div class="col-xs-6">
                 <div class="radio">
-                    <label><input type="radio" name="optradio">Đăng ký nhận thông tin</label>
+                    <label><input type="radio" name="optradio" value="sendEmail">Đăng ký nhận thông tin</label>
                 </div>
             </div>
             <div class="col-xs-6">
                 <div class="radio">
-                    <label><input type="radio" name="optradio">Đăng ký thành viên</label>
+                    <label><input type="radio" name="optradio" value="register">Đăng ký thành viên</label>
                 </div>
             </div>
         </div>

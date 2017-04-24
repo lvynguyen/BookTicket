@@ -1,0 +1,21 @@
+.to-news {
+    padding: 20px;
+}
+
+.to-news > .news-hotdeal {
+    margin-top: 20px;
+}
+.news-item{
+    padding: 10px;
+}
+.news-item > img {
+    width: 100%;
+    min-height: 180px;
+}
+.news-item > div {
+    background: transparent url(../images/pattern_vang.svg) center no-repeat;
+    background-size: cover;
+    padding: 10px;
+    box-shadow: 0 2px 4px -2px #333;
+    min-height: 110px;
+}

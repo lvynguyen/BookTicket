@@ -1,4 +1,7 @@
-﻿a.carousel-control {
+﻿.carousel-inner > .item > img {
+    max-height: 313px;
+}
+a.carousel-control {
     outline: none;
 }
 
